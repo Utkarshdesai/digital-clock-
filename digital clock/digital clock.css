@@ -1,0 +1,56 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+.wrapper{
+    width:100vw;
+    height:100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.clock{
+    padding:2rem;
+    flex-basis: 60%;
+    height: 30%;
+    border: 1px solid red;
+    box-shadow: 5px 5px 60px grey;
+    background-color: darkgoldenrod;
+
+
+}
+.hour{
+    font-weight: bold;
+ font-family:Arial, Helvetica, sans-serif ;
+ font-size: 6rem;
+ color: white;
+ 
+}
+.minute{
+    font-weight: bold;
+ font-family:Arial, Helvetica, sans-serif ;
+ font-size: 6rem;
+ color: white;
+ margin-left: 1rem;
+}
+.seconds{
+    font-weight: bold;
+ font-family:Arial, Helvetica, sans-serif ;
+ font-size: 6rem;
+ color: white;
+ margin-left:  1rem;
+}
+.daynight {
+    font-weight: bold;
+ font-family:Arial, Helvetica, sans-serif ;
+ font-size: 6rem;
+ color: white; 
+ margin-left: 1rem;
+}
+.dots{
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 6rem;
+    color: white;
+}
